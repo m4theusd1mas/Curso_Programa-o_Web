@@ -18,7 +18,7 @@ inicio
    escreval("ESCREVA_O_COMPRIMENTO: ")
    leia(comprimento)
    
-   area <- largura*comprimento
+   area = largura*comprimento
    perimetro = 2*largura+2*comprimento
 
 
