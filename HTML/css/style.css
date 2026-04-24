@@ -1,19 +1,75 @@
 
+/*importando fontes*/
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+/*seletor de todo o conteudo da pagina*/
 *{
 
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    margin: 0.4rem;/*Espaçamento das margens - rem
+    medida relativa a tela em que for apresentado o app*/
+    padding: 0;/*Espaçamento interno*/
+    box-sizing: border-box;/*Box padrão de todo o site*/
 
 }
 
-hr {
-display:none
-
-}
+hr{ display: none;} /*desabilita as tags HR*/
 
 
+/*Seletor do corpo da pagina*/
 body{
 
-    background-color:#8bef49
+    background-color:#000516;
+    color:#fff4e3;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+header{
+
+    padding: 3rem;
+    border: #ff9900 ;
+    border-width: 0.1rem;
+    border-style: solid;
+    border-radius: 10px 100px / 120px;
+    font-size: 1.5rem;
+}
+
+h1 {
+    font-size: 1;
+}
+
+h2 {
+    font-size: 0.8;
+}
+/* p:part-header{
+
+    color: #388f1e;
+
+} */
+
+main {
+
+    podding:3rem;
+    color:#ecf4ff;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+p.introducao {
+
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: justify;
+    color: #a1cdff;
+    padding: 1rem;
+
 }
